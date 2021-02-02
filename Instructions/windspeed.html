@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+  <h1>Humidity Analysis</h1>
+
+    <div class="navbar">
+    <a href="index.HTML">Home</a>
+    <a href="#">Comparisons</a>
+    <a href="cities.HTML">Data</a>
+    <div class="dropdown">
+      <button class="dropbtn">Plots
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="temperature.html">Latitude vs. Temperature</a>
+        <a href="humidity.html">Latitude vs. Humidity</a>
+        <a href="cloudiness.html">Latitude vs. Cloudiness</a>
+        <a href="windspeed.html">Latitude vs. Wind Speed</a>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="box" style="padding-bottom: 20px;">
+                    <h3 class="title">LATITUDE VS. Wind Speed</h3>
+
+                    <img src="images/Fig4.png" class="vizualization" alt="Temperature vs. Wind Speed">
+                    <p> There is a mildly positive correlation between wind speed and latitude.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+</html>
