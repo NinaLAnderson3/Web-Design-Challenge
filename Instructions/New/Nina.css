@@ -1,0 +1,149 @@
+body{
+  background-image: url("https://www.google.com/search?q=beach+wallpaper&sxsrf=ALeKk02mtztmlx_g1GXl1o29qqyozdXyuw:1611953976142&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAmZHBhMLuAhXJUhUIHV8VAuMQ_AUoAXoECBQQAw&biw=1920&bih=912#imgrc=QA6FYRD9cuKmcM");
+  height: 750px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .vizualization {
+    width:50%;
+    height:50%;
+  }
+
+  .title {
+    color: rgb(52, 149, 165);
+    font-family: cochin;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+
+  p {
+  color: rgb(52, 149, 165);
+  font-family: 'segoe ui';
+  font-size: 16px;
+  }
+
+  .box {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 10px 30px 10px;
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+  .table {
+    font-size: 15px;
+    border-top-color: rgb(255, 255, 255);
+  }
+
+  footer {
+  background-color: #000000;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: rgb(37, 80, 87);
+  color: rgb(171, 222, 226);
+  min-height: 50px;
+  font-family: Menlo, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  }
+
+  @media(max-width: 992px) {
+    .navbar-expand-lg {
+    background-color: #000000;
+    }
+    .navbar {
+      max-height: none;
+      padding: inherit;
+    }
+    .navbar div {
+      margin: inherit;
+      background-color: rgb(255,255,255);
+    }
+    .navbar-brand {
+      padding: 10px;
+    }
+    button{
+      margin-right: 30px;
+    }
+    button:focus {
+      outline: 1px dotted;
+      outline: auto 5px;
+    }
+  }
